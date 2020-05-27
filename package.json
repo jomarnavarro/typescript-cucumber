@@ -1,0 +1,19 @@
+{
+  "name": "typescript-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"tsc",
+    "test": "tsc && cucumber-js features/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/cucumber": "^6.0.1",
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5"
+  }
+}
